@@ -8,21 +8,75 @@
     <meta content="Revanced Help" property="og:title" />
     <meta content="And this is a description!" property="og:description" />
     <meta content="#43B581" data-react-helmet="true" name="theme-color" />
-
-    <title>Revanced Help</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    
+    <title>ReVanced Repository</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
 </head>
 <body>
-    <section class="section">
-      <div class="container">
-        <h1 class="title">
-          ReVanced.click
-        </h1>
-        &nbsp;
-        <p class="subtitle is-small" style="font-family: Consolas; font-size: 13.1px;">
-          This is a test subtitle!
-        </p>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">ReVanced Repository</h1>
+      <div class="content">
+        <p><strong>⚠️ NEVER TRUST PREPATCHED APKS, THEY MIGHT CONTAIN MALWARE ⚠️</strong></p>
       </div>
-    </section>
+
+      <h2 class="subtitle">Guides</h2>
+      <ol>
+        <li><a href="https://sodawithoutsparkles.github.io/revanced-troubleshooting-guide/step-by-step/00-preface/">SodaWithoutSparkles</a></li>
+        <li><a href="https://hokorayinphinempp.github.io/obsidian-git-sync/Revanced/1%20Start%20Here%21/Revanced%20Start%20Beta/">Hokora Yinphine</a></li>
+        <li>Official <a href="https://github.com/ReVanced/revanced-manager/blob/main/docs">Manager</a> | <a href="https://github.com/ReVanced/revanced-cli/tree/main/docs">CLI</a></li>
+        <li><a href="https://www.reddit.com/xlcny9">Spongederp Squarefap</a></li>
+        <li><a href="https://www.reddit.com/10nyr2t">Nato Boram</a></li>
+      </ol>
+
+      <br>
+      <h2 class="subtitle">Sourcing the APK</h2>
+      <div class="notification is-warning">
+        <p>Remember to check your architecture and DPI!</p>
+        <p>For example, Facebook Messenger has a lot of APKs available for archs (armeabi-v7a, x86, arm64-v8a) and DPI (360-480, 560-640, 120-160, 280-320, nodpi), still, <strong>universal</strong> | <strong>nodpi</strong> is your best bet. You have to <strong>download the "normal" APK, not the bundle</strong> version of the APK, bundles generally end with .apks, .xapk, .aab. They will generally be marked with the BUNDLE tag.</p>
+      </div>
+      <ol>
+        <li><a href="https://xem.lol/rv">Xemulated's ApkMirror redirect</a></li>
+        <li>Search on google, the example query is: <code>YouTube 18.23.35 apkmirror download</code></li>
+      </ol>
+
+      <br>
+      <h2 class="subtitle">Troubleshooting</h2>
+      <ol>
+        <li><a href="https://sodawithoutsparkles.github.io/revanced-troubleshooting-guide/troubleshoot/00-trouble-shooting/">SodaWithoutSparkles</a></li>
+        <li><a href="https://www.reddit.com/r/revancedapp/wiki/help/questions/">Official ReVanced FAQ</a></li>
+      </ol>
+
+      <br>
+      <h2 class="subtitle">Fixes</h2>
+      <p><em>The author of these fixes is taku_the_sixteenth on ReVanced's Discord server</em></p>
+      <ol>
+        <li>
+          <p><strong>YouTube playback issue</strong></p>
+          <p>Recently YouTube has rolled out changes that affect the playback of videos. The Client spoof patch has been updated to work around this issue.</p>
+          <ul>
+            <li>If you experience playback issues, patch YouTube using the latest version of ReVanced Patches. Make sure to include the Client spoof patch.</li>
+            <li>Make sure it is enabled under Misc > Spoof app signature.</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Rif solution for login problems:</strong></p>
+          <blockquote>
+            <p>make sure manager version is 1.6.1</p>
+            <p>reset your sources in manager settings (and restart manager)</p>
+            <p>patch fresh apk of rif, include client spoof patch</p>
+            <p>if installs fails, try uninstalling old rif first</p>
+          </blockquote>
+          <p>in case the above solution doesn't work:</p>
+          <ul>
+            <li>make sure manager version is 1.6.1</li>
+            <li>in Manager settings > change sources "patches organization" field to Revanced (instead of revanced)</li>
+            <li>patch fresh APK of rif, include client spoof patch</li>
+            <li>if install fails, try uninstalling old rif first</li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+  </section>
 </body>
 </html>
