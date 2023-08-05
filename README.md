@@ -1,2 +1,1 @@
-# revanced.click
-A shrimple website
+hosted on https://rvnce.cfd and https://revanced.click
