@@ -1,1 +1,1 @@
-hosted on https://rvnce.cfd and https://revanced.click
+hosted on https://rvncd.cfd and https://revanced.click
